@@ -214,6 +214,27 @@ footer{
 }
 
 
+.merchcaja1:hover {
+
+    transform:scale(3);
+    transition:all 0.3s ease-in-out
+
+}
+
+
+.merchcaja2:hover {
+
+    transform:scale(3);
+    transition:all 0.3s ease-in-out
+
+}
+
+.merchcaja3:hover {
+
+    transform:scale(3);
+    transition:all 0.3s ease-in-out
+
+}
 
 
 
