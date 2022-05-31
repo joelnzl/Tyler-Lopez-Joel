@@ -1,0 +1,236 @@
+
+/* body */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+   }
+
+
+/* main */
+
+main {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 100px 400px;
+    gap: 20px;
+   
+   
+  }
+
+  .musicgrid {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 200px 200px 200px 200px;
+    gap: 20px;
+
+  }
+
+/* navbar*/
+
+nav{
+    
+    text-align:center;
+    
+}
+
+li{
+   
+    display:inline;
+    list-style:none;
+    padding:2em 2em;
+    margin-left:4em;
+}
+
+a{
+    width:100%;
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
+
+}
+   
+/* texto */
+
+.titulos{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin: 0;
+    align-self: center;
+}
+
+
+
+
+h1,h2{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    
+
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    
+}
+
+/* footer */
+
+
+
+footer{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:italic;
+    font-weight:bold;
+    padding-top:1em;
+    font-size:0.9em;
+}
+
+.pfooter{
+
+    text-align:center;
+}
+
+
+
+
+
+
+/* home */
+
+.indexbody{
+    background-color: #FFF089;
+}
+
+.indexcaja1{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 100%;
+    
+   
+}
+
+.indexcaja2{
+   height: 100%;
+   grid-column: 2/3;
+   grid-row: 2/3;
+   
+   
+}
+
+.indexp{
+   margin-left:0;
+   padding-left:0;
+   padding-top: 80px;
+}
+
+/* okonma */
+
+.okonmabody{
+    background-color: #74D3BB;
+}
+
+.tylercaja1{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 100%;
+    
+}
+
+.tylercaja2{
+    height: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    
+    
+}
+
+.tylerp{
+    margin-left:0;
+    padding-left:0;
+    padding-top: 80px;
+
+}
+
+
+/* music */
+.musicbody{
+    background-color: #D374B8;
+}
+
+
+/* fashion */
+.fashionbody{
+    background-color: #C6C89B;
+}
+
+.fashioncaja1{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 100%;
+    
+}
+
+.fashioncaja2{
+    height: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    
+    
+}
+
+.fashionp{
+    margin-left:0;
+    padding-left:0;
+    padding-top: 80px;
+
+}
+
+
+/* merch */
+.merchbody{
+    background-color: #FFFFFF;
+}
+
+.merchmain{
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+}
+.merchgrid{
+    display:grid;
+    grid-template-columns: 200px 200px;
+    width:80%;  
+    
+}
+
+.merchcaja1:hover {
+
+    transform:scale(3);
+    transition:all 0.3s ease-in-out
+
+}
+
+
+
+img{
+    width:100%;
+    height:100%;
+}
+
+
+
+
+.producto1{
+    width:10%;
+}
+
