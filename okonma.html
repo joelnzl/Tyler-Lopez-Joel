@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=
     , initial-scale=1.0">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+
     <link rel="stylesheet" href="style.css">
 
     <title>TYLER, THE CREATOR</title>
@@ -13,22 +17,35 @@
 <body class="okonmabody">
 
 <header>
-
-    <nav>
-   
-        <ul>
-
-            <li><a href="index.html">Home</a></li> 
-            <li><a href="okonma.html">Tyler</a></li> 
-            <li><a href="music.html">Music</a></li>
-             <li><a href="fashion.html">Fashion</a></li>
-             <li><a href="merch.html">Merch</a></li>
-        
-
-        </ul>    
-
-    </nav>
-
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+         
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="okonma.html">Tyler</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="music.html">Music</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="fashion.html">Fashion</a>
+                </li>
+      
+                <li class="nav-item">
+                  <a class="nav-link" href="merch.html">Merch</a>
+                </li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
 </header> 
 
 
@@ -39,13 +56,19 @@
 
  <h1 class="titulos">TYLER, THE CREATOR</h1>
 
-<div class="tylercaja1"><img src="fotos/tyler1.jpg" alt="tyler1"></div>
-
-
-
-<div class="tylercaja2"><p class="tylerp">Tyler, the Creator was born as Tyler Gregory Okonma in Los Angeles, California on March 6, 1991. 
-    He was raised by his mother in the Ladera Heights and Hawthorne Heights sections of L.A. Growing up Tyler, 
-    the Creator taught himself how to play the piano and would design his own album covers for existing albums.</p></div>
+ <div class="container">
+  <div class="row">
+    <div class="col">
+      <img src="fotos/tyler1.jpg" class="img-fluid" alt="tyler1">
+    </div>
+    
+    <div class="col">
+      <p class="tylerp">Tyler, the Creator was born as Tyler Gregory Okonma in Los Angeles, California on March 6, 1991. 
+          He was raised by his mother in the Ladera Heights and Hawthorne Heights sections of L.A. Growing up Tyler, 
+          the Creator taught himself how to play the piano and would design his own album covers for existing albums.</p>
+    </div>
+  </div>
+</div>
 
 
 </main>
@@ -60,6 +83,6 @@
 
 </footer>
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
