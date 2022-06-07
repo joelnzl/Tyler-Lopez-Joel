@@ -8,121 +8,6 @@ body {
    }
 
 
-/* navbar*/
-
-nav{
-    
-    text-align:center;
-   
-    
-}
-
-.navbar-collapse {
-    justify-content: center;
-}
-
-li{
-   
-    display:inline;
-    list-style:none;
-    padding:2em 2em;
-    margin-left:4em;
-}
-
-a{
-    width:100%;
-    color:black;
-    text-decoration:none;
-    font-weight:bold;
-
-}
-   
-/* texto */
-main{
-    text-align:center;
-}
-
-
-h1,h2{
-    font-family:Arial, Helvetica, sans-serif;
-    text-align:center;
-    padding-bottom: 50px;
-    padding-top:50px;
-    
-
-}
-
-p{
-    font-family:Arial, Helvetica, sans-serif;
-    text-align:left;
-    
-}
-
-
-
-.pmerch{
-    text-align:center;
-}
-
-.bg-light {
-    --bs-bg-opacity: 0;
-}
-
-audio{
-    margin-top:30px;
-}
-
-/* footer */
-
-
-
-footer{
-    font-family:Arial, Helvetica, sans-serif;
-    
-    font-weight:bold;
-    padding-top:1em;
-    font-size:0.9em;
-}
-
-.pfooter{
-
-    text-align:center;
-}
-
-
-
-
-
-
-/* home */
-
-.indexbody{
-    background-color: #FFF089;
-}
-
-.indexcaja1{
-    width: 100%;
-    grid-column: 1/2;
-    grid-row: 2/3;
-    height: 100%;
-    
-   
-}
-
-.indexcaja2{
-   height: 100%;
-   grid-column: 2/3;
-   grid-row: 2/3;
-   
-   
-}
-
-.indexp{
-   margin-left:0;
-   padding-left:0;
-   padding-top: 80px;
-}
-
 /* okonma */
 
 .okonmabody{
@@ -147,32 +32,98 @@ footer{
 .fashionbody{
     background-color: #C6C89B;
 }
+ 
+
+
+/* navbar*/
+
+nav{
+    
+    text-align:center;  
+    
+}
+
+.bg-light {
+    --bs-bg-opacity: 0;
+}
+
+
+.navbar-collapse {
+    justify-content: center;
+}
 
 
 
-.fashionp{
-    margin-left:0;
-    padding-left:0;
-    padding-top: 80px;
+a{
+    width:100%;
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
 
+}
+   
+/* texto */
+main{
+    text-align:center;
+}
+
+
+h1,h2{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    padding-bottom: 50px;
+    padding-top:50px;
+    
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    
+}
+
+.pmerch{
+    text-align:center;
 }
 
 .indexp{
-    padding-top:4%;
-}
+    margin-left:0;
+    padding-left:0;
+    padding-top: 4%;
+ }
+ 
+ 
+ .fashionp{
+     margin-left:0;
+     padding-left:0;
+     padding-top: 80px;
+ 
+ }
 
-img{
-    width:100%;
-}
-
-.tylerp{
+ .tylerp{
     padding-top:250px;
 }
 
-.w-100{
+
+
+/* footer */
+
+footer{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    padding-top:1em;
+    font-size:0.9em;
+}
+
+
+
+.pfooter{
 
     text-align:center;
 }
+
+
+/* Configuracion para resolucion mobile */
 
 .mobile{
 
@@ -198,6 +149,8 @@ img{
     
 }
 
+/* transicion para seccion music */
+
 audio {
 
     transition:all 0.3s ease-in-out;
@@ -206,4 +159,10 @@ audio {
 audio:hover{
 
     transform:scale(1.5);
+}
+
+
+
+img{
+    width:100%;
 }
