@@ -91,32 +91,6 @@ footer{
 
 
 
-
-
-
-/* home */
-
-.indexbody{
-    background-color: #FFF089;
-}
-
-.indexcaja1{
-    width: 100%;
-    grid-column: 1/2;
-    grid-row: 2/3;
-    height: 100%;
-    
-   
-}
-
-.indexcaja2{
-   height: 100%;
-   grid-column: 2/3;
-   grid-row: 2/3;
-   
-   
-}
-
 .indexp{
    margin-left:0;
    padding-left:0;
