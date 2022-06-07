@@ -78,7 +78,7 @@ audio{
 
 footer{
     font-family:Arial, Helvetica, sans-serif;
-    font-style:italic;
+    
     font-weight:bold;
     padding-top:1em;
     font-size:0.9em;
@@ -90,6 +90,32 @@ footer{
 }
 
 
+
+
+
+
+/* home */
+
+.indexbody{
+    background-color: #FFF089;
+}
+
+.indexcaja1{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 100%;
+    
+   
+}
+
+.indexcaja2{
+   height: 100%;
+   grid-column: 2/3;
+   grid-row: 2/3;
+   
+   
+}
 
 .indexp{
    margin-left:0;
@@ -106,6 +132,12 @@ footer{
 
 
 /* music */
+
+.indexbody{
+    background-color: #FFF089;
+}
+
+
 .musicbody{
     background-color: #D374B8;
 }
@@ -125,7 +157,9 @@ footer{
 
 }
 
-
+.indexp{
+    padding-top:4%;
+}
 
 img{
     width:100%;
@@ -135,8 +169,41 @@ img{
     padding-top:250px;
 }
 
-audio:hover{
-    transform:scale(2);
-    transition:all 0.8s ease-in-out
+.w-100{
+
+    text-align:center;
 }
 
+.mobile{
+
+    display:none;
+
+
+}
+
+@media (max-width: 1203px) {
+
+    .mobile {
+
+        display:block;
+        
+    }
+
+    .dekstop{
+
+        display:none;
+    }
+
+    
+    
+}
+
+audio {
+
+    transition:all 0.3s ease-in-out;
+}
+
+audio:hover{
+
+    transform:scale(1.5);
+}
