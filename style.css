@@ -104,6 +104,16 @@ p{
     padding-top:250px;
 }
 
+.indexpmobile{
+    padding-top:2%;
+    text-align:center;
+}
+
+.tylerpmobile{
+    padding-top:2%;
+    text-align:center;
+}
+
 
 
 /* footer */
@@ -122,6 +132,9 @@ footer{
     text-align:center;
 }
 
+audio{
+    margin-top:6%;
+}
 
 /* Configuracion para resolucion mobile */
 
@@ -166,3 +179,4 @@ audio:hover{
 img{
     width:100%;
 }
+
