@@ -1,3 +1,13 @@
+// variable
+$color-index: #FFF089;
+
+// nesting
+.indexbody{
+
+    background-color: $color-index;
+
+}
+
 
 /* body */
 
@@ -18,9 +28,7 @@ body {
 
 /* music */
 
-.indexbody{
-    background-color: #FFF089;
-}
+
 
 
 .musicbody{
@@ -184,4 +192,3 @@ audio:hover{
 img{
     width:100%;
 }
-
